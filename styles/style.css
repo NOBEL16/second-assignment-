@@ -1,0 +1,179 @@
+/*----- Start Css Style-------- */
+.header{
+    position: absolute;
+    background-color: bisque;
+    left: 200px;
+    width: 1000px;
+    height: 800px;
+}
+.menu-bar{
+  display: flex;
+  justify-content: space-around;
+}
+.bar{
+    display: flex;
+    gap: 10px;
+    color: coral;
+    
+}
+/* middle --css---style */
+.middle-title{
+
+    text-align: center;
+    width: 829px;
+    height: 210px;
+}
+.paragraph{
+    color: darkslategrey;
+}
+.btn{
+    background: orange;
+    border: 3px;
+    border-radius: 2.8px;
+    width: 180px;
+    height: 50px;
+}
+.images img{
+   
+    width: 500px;
+    height: 400px;
+    left: 200px;
+    top: 350px;
+    border: 8px;
+    border-radius: 7px;
+}
+/* =======start grid======= */
+.grid-container{
+    position: absolute;
+    
+left: 301px;
+top: 900px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 9px;
+}
+.container-info img{
+    width: 200px;
+    height: 200px;
+}
+.side-section{
+    position: absolute;
+    width: 537px;
+height: 304px;
+left: 800px;
+top: 1000px;
+}
+.colorr{
+    color: cadetblue;
+}
+.colorrr{
+    color: orange;
+}
+.para{
+    color: darkolivegreen;
+}
+.main-section{
+    position: absolute;
+width: 1440px;
+height: 1059px;
+left: 250px;
+top: 600px;
+}
+.images-image img{
+    position: absolute;
+width: 500px;
+height: 800px;
+left: 450px;
+top: 900px;
+}
+.drop-down{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 80px;
+    top: 900px;
+}
+.year button{
+    position: absolute;
+    background-color: orange;
+    width: 150px;
+    height: 90px;
+    top: 1720px;
+    left: 400px;
+    border: 5px;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 20px;
+}
+/* middle===last section css style */
+.middle-last{
+    position: absolute;
+    top: 2500px;
+    left: 330px;
+}
+.some-facts{
+  font-size: 40px;
+  color: brown;
+}
+.some-facts:hover{
+    background-color: gold;
+}
+.middle-last p{
+    color: darkolivegreen;
+}
+.group{
+    position: absolute;
+    display: flex;
+    gap: 100px;
+    top:2750px;
+    left: 390px;
+}
+.group-fact img{
+    width: 40.25px;
+    height: 40.25px;
+
+}
+.group p, h3{
+    color: darkolivegreen;
+
+}
+.group:hover{
+    background-color: black;
+}
+.our-info{
+position: absolute;
+width: 540px;
+height: 130px;
+top: 2920px;
+left: 550px;
+color: brown;
+border: 4px dotted black;
+}
+.our-info:hover{
+   background-color: cyan; 
+} 
+
+.sponsor{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    left: 200px;
+    top: 3100px;
+}
+.filter img{
+    filter: grayscale(100%);
+    width: 100px;
+    height: 40px;
+}
+footer{
+    position: absolute;
+    top: 3300px;
+    background-color: bisque;
+    width: 1000px;
+    height: 100px;
+    left: 150px;
+    text-align: center;
+    color: darkolivegreen;
+    
+  
+}
