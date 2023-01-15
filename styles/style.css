@@ -167,7 +167,7 @@ border: 4px dotted black;
 }
 footer{
     position: absolute;
-    top: 3300px;
+    top: 3900px;
     background-color: bisque;
     width: 1000px;
     height: 100px;
@@ -176,4 +176,32 @@ footer{
     color: darkolivegreen;
     
   
+}
+.extra{
+    position: absolute;
+    top: 3300px;
+    width: 1000px;
+    height: 500px;
+    left: 100px;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+.extra h2{
+    text-align: center;
+    color: gold;
+    background-color: black;
+  
+    
+}
+.add{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+  
+}
+.add:hover{
+    background-image: url(../images/programming1.jpg);
+    
+    
 }
